@@ -5,7 +5,6 @@ inputs:
     description: 'Build directory to deploy to s3. Ex: build, dist...'
     required: false
     default: 'build'
-outputs:
 runs:
   using: 'node16'
   main: 'dist/index.js'
